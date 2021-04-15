@@ -1,1 +1,520 @@
-asd
+OOP and Data Structures		
+		
+Question	Seniority Level	Notes
+What is the difference between a class and an object?	Junior	
+What is the difference between overloading and overriding a method?	Junior	
+What is the difference between composition and aggregation?	Junior, Mid	
+Can you override a static method?	Junior	
+Can you access an instance variable from a static method?	Junior	
+What is polymorphism in OOP?	Mid, Senior	
+What is the difference between procedural and OOP programming?	Mid, Senior	
+What is an abstract class and when would you use one?	Junior, Mid	
+What is an interface and when would you use one?	Junior, Mid	
+How do you implement a Stack?	Mid, Senior	
+How do you implement a Linked List?	Mid, Senior	
+What is the difference between a List and an Array?	Mid, Senior	
+What is the difference between a Trait and a Mixin?	Mid, Senior	
+How do you implement a Map?	Mid, Senior	
+Describe the pros and cons of Array List and Linked List?	Mid, Senior	
+What is a binary search tree?	Mid, Senior	
+What is a graph?	Mid, Senior	
+How do you implement a graph?	Mid, Senior	
+What is the difference between static and dynamic typing?	Senior	
+What is the difference between strong and weak typing?	Senior	
+Describe covariance and contravariance in OOP.	Mid, Senior	
+		
+Java Core		
+		
+Question	Seniority Level	Notes
+Describe Java access modifiers.	Junior	
+What is the difference between package private and protected scope?	Junior	
+How do you prevent a class from being extended?	Junior	
+What is the difference between an abstract class and an interface?	Junior	
+When would you use an abstract class instead of an interface?	Mid, Senior	
+What is the difference between a checked and unchecked exceptions?	Junior, Mid	
+When would use an unchecked exception?	Mid, Senior	
+Describe Object's hashCode and equals contract.	Junior, Mid, Senior	
+Describe Java Collections hierarchy.	Mid, Senior	
+What is the difference between a Set and a List?	Junior, Mid	
+What is the difference between a Set and a Map?	Junior, Mid	
+How do you sort an array?	Junior, Mid	
+How do you sort a List?	Junior, Mid	
+What is a Comparator?	Junior, Mid	
+When would you use a Comparator instead of implementing Comparable? (to sort a Collection or an Array).	Mid, Senior	
+What is the difference between Vector and ArrayList?	Junior, Mid	
+What is the difference between Hashtable and HashMap?	Junior, Mid	
+Describe how ClassLoader works.	Mid, Senior	
+What are the most important new APIs introduced by Java 8?	Junior, Mid, Senior	
+What is a Stream?	Junior, Mid, Senior	
+What is a Lambda expression?	Junior, Mid, Senior	
+What is a MethodHandle?	Mid, Senior	
+When would you use Optional? Provide an example.	Mid, Senior	
+How do you reference a constructor using a MethodHandle?	Junior, Mid, Senior	
+How does Java implements Generics? Why?	Mid, Senior	
+Did you use Reflection API? Provide an example.	Mid, Senior	
+Can you describe Producer Extends Consumer Super principle when designing an API involving generics?	Senior	
+How is HashMap implemented internally? How does it behave?	Mid	
+How is ConcurrentHashMap implemented internally? How does it behave?	Senior	
+What is ArrayList backed by?	Junior	
+How do ArrayList and LinkedList behave when adding an element in the midle of them?	Junior, Mid	
+		
+Java Concurrency		
+		
+Question	Seniority Level	Notes
+Describe synchronize keyword. Provide an example.	Junior	
+Describe volatile keyword. Provide an example.	Junior, Mid, Senior	
+What is an object monitor?	Mid, Senior	
+What is a thread?	Junior	
+How do you create a thread in Java?	Junior	
+What is a ThreadPool?	Junior, Mid	
+What is a ThreadFactory and when would you use it?	Mid, Senior	
+Did you use java.util.concurrent package directly? Provide an example.	Junior, Mid, Senior	
+What is an Executor?	Junior, Mid, Senior	
+How do you stop a thread?	Junior, Mid, Senior	
+What is a daemon thread?	Junior, Mid, Senior	
+Describe a deadlock situation.	Junior, Mid, Senior	
+Describe a livelock situation.	Mid, Senior	
+What is a Future?	Mid, Senior	
+What is CompletableStage?	Mid, Senior	
+What is a CompletableFuture?	Mid, Senior	
+How do you schedule a task to execute every 5 minutes using only standard Java APIs?	Mid, Senior	Timer or ScheduledThreadPoolExecutor
+What is a CyclicBarrier and when would you use it? Provide an example.	Mid, Senior	
+What is a CountDownLatch and when would you use it? Provide an example.	Mid, Senior	
+What is a ReentrantLock?	Mid, Senior	
+What are the advantages of using a Lock instead of synchronization?	Mid, Senior	
+Describe the Actor concurrency model.	Mid, Senior	
+Where can you use syncronized? What does the syncronize lock in each case?	Junior	
+		
+Java Tools and Frameworks		
+		
+Question	Seniority Level	Notes
+What is your favorite Java framework?	Junior, Mid, Senior	
+Describe the pros and cons of your favority Java framework.	Mid, Senior	
+What is ORM?	Junior, Mid, Senior	
+What ORM implementations did you use?	Junior, Mid, Senior	Hibernate, Toplink etc.
+What JEE APIs did you use? Provide examples for each used.	Junior, Mid, Senior	JDBC, JPA, Servets, JSP etc.
+What build tools did you use? Which one is your favorite and why?	Junior, Mid, Senior	Maven, Gradle, Ant etc.
+What other JVM languages other than Java did you use?	Junior, Mid, Senior	Scala, Clojure, Kotlin, Ceylon etc.
+What is DI and why it is useful?	Junior, Mid, Senior	
+What is AOP?	Mid, Senior	
+Spring specific questions.	Junior, Mid, Senior	Free style.
+JDBC, JPA, JTA, Servlets, JSP specific questions.	Junior, Mid, Senior	Free style.
+How would you build a microservice?	Mid, Senior	SpringBoot, Play, JEE.
+		
+JVM		
+		
+Question	Seniority Level	Notes
+Describe how the garbage collector works.	Junior	
+Describe JVM heap structure.	Mid, Senior	
+What garbage collector  implementations are provided by JVM?	Mid, Senior	
+How can you increase JVM's heap size?	Junior, Mid, Senior	
+How can you create a memory leak in Java?	Mid, Senior	
+Describe Java Memory Model.	Senior	
+What is JIT?	Mid, Senior	
+Did you ever had to fine tune the JVM for optimal performance? Provide an example.	Senior	
+Describe how tiered compilation works in JVM.	Senior	C1, C2 compilers
+What is the difference between '-client' and '-server' JVM parameters?	Senior	
+		
+Unit Testing		
+		
+Question	Seniority Level	Notes
+What unit testing frameworks did you use?	Junior, Mid, Senior	JUnit, TestNG, Mockito, Powermock etc.
+Which unit testing framework is your favorite and why?	Junior, Mid, Senior	
+What is a unit test?	Junior	
+What is the difference between a unit test and an integration test?	Junior, Mid	
+What is TDD? Did you use it?	Junior, Mid, Senior	
+What is BDD? Did you use it?	Junior, Mid, Senior	
+What is the purpose of JUnit @Before and @After annotations?	Junior	
+What do you consider as hard-to-test-code? Provide an example.	Mid, Senior	
+What is mocking? What mocking libraries did you use?	Junior, Mid, Senior	
+What is the difference between mocks and stubs?	Mid, Senior	
+Difference between integration testing and unit testing? How would you implement each	Junior, Mid, Senior	
+
+
+
+
+HTTP		
+Easy questions		Items to be evaluated (to be filled in Interview Summary document)
+What is HTTP?		Protocol
+Describe the HTTP request flow.		Headers
+What are the components of an HTTP request/response?		Response codes
+What header fields do you know of?		Request methods
+What are the request methods of HTTP? How and when would you use them?		REST
+What is Status codes?		Sessions & Cookies
+Medium questions		
+What is HTTPS?		
+Why and when would you use HTTPS?		
+What are the drawbacks of HTTPS?		
+What are cookies?		
+If the server returns a 4XX error code, where is the problem?		
+If the server returns a 5XX error code, where is the problem?		
+What web server do you know / have you used?		
+		
+Complex questions		
+Explain Safe methods		
+What is cURL in HTTP?		
+What is the meaning of PUT method?		
+What is HTTP session state?		
+Explain Request message in HTTP		
+		
+		
+HTML		
+Easy questions		Items to be evaluated (to be filled in Interview Summary document)
+What does DOCTYPE do?		Doctype
+Name at least 2 differences between HTML & XHTML		Syntax rules
+How many list types exist and what are they?		Tags
+What is an <ul> tag?		Attributes
+How do you create bold text in HTML using a tag?		Basic SEO
+How do you create a link in HTML?		
+Name HTML tags used for tables that are specific		
+What is the difference in display between <div> and <span> elements?		
+If you don't specify the width of a <div> element in HTML what will the default width be?		
+Can you declare the <thead> after the <tbody> in a table?		
+		
+Medium questions		
+What is the DOCTYPE for HTML5?		
+Name some HTML5 tags		
+To include an external CSS file, what tag would you use?		
+Using HTML5, what tag should be used for menu?		
+Name at least 2 tags that are not supported any more with HTML5		
+What attribute would you use to make input field not editable?		
+How do you tell a form in HTML what HTTP method it should use?		
+If you want to upload a file what attribute do you need to set?		
+Name possible type values that can be set to input element		
+If you want a script to be in head tag and should not block render, what attributes should you set?		
+What attribute should you use in HTML to attach a click event to an element?		
+Complex questions		
+What attribute can be set on a form element to call some JavaScript for form validation?		
+How many H1 tags should be on a page?		
+What attribute should be used for <img> that will help SEO?		
+		
+CSS		
+Easy questions		Items to be evaluated (to be filled in Interview Summary document)
+What are the options for applying CSS to an HTML document?		Usage
+How can you override an inline style?		Selectors
+What is the result of two separate external stylesheets defining conflicting rules (or the same stylesheet defining multiple conflicting rules) for the same element(s)?		Box Modelling and positioning
+Is it possible to include an external stylesheet in another stylesheet?		Styling
+What (types of) selectors does CSS provide?		Dynamic Stylesheets
+Is it possible to target an element based on its relationship to another element (e.g., B is a descendant of A, or B immediately follows A)?		CSS 3.0
+"How can you style a certain element based on user interaction (e.g., on mouse over or when an input is selected)?
+"		
+How would you target all inputs of type "number" for styling?		
+What CSS properties affect an element's box model?		
+How can you specify the border / padding / margin of an element?		
+What values does the display property accept?		
+What does the float property do? What about clear?		
+Other easy questions asked by the interviewer		
+		
+Medium questions		
+How does the browser calculate the priority of a certain rule?		
+How can you control the way the browser calculates the dimensions of an element relative to its box model?		
+How can you control the position of an element? What are the differences between each type of positioning?		
+How can you modify an element to display its text as lowercase / uppercase through CSS?		
+What does the text-overflow property do?		
+"How can you force a piece of text to be displayed on a single line, regardless of its length?
+"		
+How can you add a strikethrough effect for a piece of text?		
+Other medium questions asked by the interviewer		
+		
+		
+Complex questions		
+What are media queries useful for? How can you define a media query?		
+Is it possible to use a custom font that is not web-safe?		
+What are CSS transitions useful for?		
+"What types of transforms can an element support?
+"		
+Is it possible to animate an element using CSS?		
+What are some of the common benefits that a CSS preprocessor offers?		
+What are LESS / SASS variables? How can you use them?		
+How would you rewrite a larger piece of commonly used CSS code with a preprocessor?		
+How would you rewrite a definition to inherit rules from other definitions using a preprocessor?		
+Other difficult questions asked by the interviewer		
+		
+JavaScript		
+Easy questions		Items to be evaluated (to be filled in Interview Summary document)
+What are the basic types in JS?		Data types and variables
+Compare '===' vs '=='. What is your choice and why?		Functions
+What is event delegation?		Prototype and OOP
+What is event bubbling?		Debugging
+Explain the differences between null, undefined and undeclared		Libraries (e.g. jQuery)
+Explain DOM manipulation. Access elements, operations.		Client MV* frameworks
+What is the return type of logical operators (||, &&)?		Object Manipulation
+Describe the difference between the various types of variable scope.		Templating
+Medium questions		Testing (unit, middleware, E2E)
+What is the difference between Function Declarations and Function Expressions? What does IIFE mean?		Web sockets
+What is the purpose of 'use strict' and how to use it?		Promises
+What is the difference between using call() and apply() to invoke a function with multiple arguments? Is it possible to use bind() to achieve a similar result?		DOM Manipulation
+Explain function closure		Event Handling
+What is a promise?		AJAX
+What is AJAX / XHR? How does it work?		Tooling
+What is the difference between Array.prototype.map(), Array.prototype.reduce() and Array.prototype.forEach()? How are they different from standard looping constructs?		Browser Engines
+What is block scope? How can it be achieved? Are there any known limitations?		
+Complex questions		
+Explain Critical Rendering Path		
+Explain "hoisting"		
+Describe web workers		
+What is the event loop?		
+What are repaint & reflow? When do they occur?		
+
+
+
+
+Angular Concepts	
+	
+1. Core concepts of Angular components	
+2. Concept of modules	
+3. Fundamentals of services and Dependency injection	
+4. Angular life cycle hooks	
+5. Basics of component Interaction	
+6. How to style anglular components	
+7. How to create dynamic components	
+8. What are directives? How structural directive and attribute directives works.	
+9. How pipes works in angular	
+10. Usage of Forms, like reactive forms and template driven forms, with form validation	
+11. Using Observables and RxJs	
+12. How NgModules works and what its components.	
+13. Basics of HttpClient module.	
+14. Working of angular Routing and Navigation	
+15. Basics of server side rendering	
+	
+  Angular Questions	
+Q1: What is Routing Guard in Angular?    	
+Q2: What is a module, and what does it contain?    	
+Q3: What are pipes? Give me an example.    	
+Q4: What is a component? Why would you use it?    	
+Q5: What's the difference between an Angular component and module?    	
+Q6: What is a service, and when will you use it?    	
+Q7: What is the equivalent of ngShow and ngHide in Angular?    	
+Q8: How can I select an element in a component template?    	
+Q9: What is the difference between "@Component" and "@Directive" in Angular?    	
+Q10: How would you protect a component being activated through the router?    	
+Q11: How would you run unit test?    	
+Q12: What is the difference between Structural and Attribute directives in Angular?    	
+Q13: What is the purpose of base href tag?    	
+Q14: What is an observer?    	
+Q15: What is an observable?    	
+Q16: What are observables?    	
+Q17: What is a bootstrapping module?    	
+Q18: What is interpolation?    	
+Q19: Explain the difference between `Promise` and `Observable` in Angular?    	
+Q20: Explain the difference between "Constructor" and "ngOnInit"    	
+Q21: Why should `ngOnInit` be used, if we already have a `constructor`?    	
+Q22: How to bundle an Angular app for production?    	
+Q23: What is difference between "declarations", "providers" and "import" in NgModule?    	
+Q24: What is Reactive Programming and how to use one with Angular?    	
+Q25: Why would you use a spy in a test?    	
+Q26: What is TestBed?    	
+Q27: What is Protractor?    	
+Q28: What is the point of calling "renderer.invokeElementMethod(rendererEl, methodName)"?    	
+Q29: How would you control size of an element on resize of the window in a component?    	
+Q30: What is Redux and how does it relate to an Angular app?    	
+Q31: When would you use eager module loading?    	
+Q32: What are the Core Dependencies of Angular 7?    	
+Q33: Why Incremental DOM Has Low Memory Footprint?    	
+Q34: What are the ways to control AOT compilation?    	
+Q35: What is Angular Universal?    	
+Q36: Do I need a Routing Module always?    	
+Q37: What is the purpose of Wildcard route?    	
+Q38: What is activated route?    	
+Q39: What is router state?    	
+Q40: What is router outlet?    	
+Q41: What are dynamic components?    	
+Q42: Explain how custom elements works internally?    	
+Q43: What are the utility functions provided by RxJS?    	
+Q44: How do you perform error handling in observables?    	
+Q45: What is multicasting?    	
+Q46: What is subscribing?    	
+Q47: How do you perform Error handling for HttpClient?    	
+Q48: What is a parameterized pipe?    	
+Q49: How do you categorize data binding types?    	
+Q50: What happens if you use script tag inside template?    	
+Q51: What are the lifecycle hooks for components and directives?    	
+Q52: When should I store the "Subscription" instances and invoke `unsubscribe()` during the NgOnDestroy life cycle and when can I simply ignore them?    	
+Q53: How to set headers for every request in Angular?    	
+Q54: How to detect a route change in Angular?    	
+Q55: What is the need for SystemJS in Angular?    	
+Q56: Are there any pros/cons (especially performance-wise) in using local storage to replace cookie functionality?    	
+Q57: What does "detectChanges" do in Angular jasmine tests?    	
+Q58: Why would you use renderer methods instead of using native element methods?    	
+Q59: What would be a good use for NgZone service?    	
+Q60: What is Zone in Angular?    	
+Q61: How would you insert an embedded view from a prepared TemplateRef?    	
+Q62: What is ngUpgrage?    	
+Q63: Name and explain some Angular Module Loading examples    	
+Q64: Why would you use lazy loading modules in Angular app?    	
+Q65: When does a lazy loaded module is loaded?    	
+Q66: What is Ivy Renderer? Is it supported by Angular 7?    	
+Q67: What is incremental DOM? How is it different from virtual DOM?    	
+Q68: Why do we need compilation process?    	
+Q69: What are the mapping rules between Angular component and custom element?    	
+Q70: Do I need to bootstrap custom elements?    	
+Q71: What is the difference between pure and impure pipe?    	
+Q72: What is the difference between BehaviorSubject vs Observable?    	
+Q73: What is the Angular equivalent to an AngularJS "$watch"?    	
+Q74: Is there no equivalent to `$scope.emit()` or `$scope.broadcast()` in Angular?    	
+Q75: Name some differences between SystemJS vs WebPack?    	
+Q76: Could you provide some particular examples of using ngZone?    	
+Q78: What is the default compilation for Angular 5?    	
+Q79: Just-in-Time (JiT) vs Ahead-of-Time (AoT) compilation. Explain the difference.    	
+Q80: Do you know how you can run angularJS and angular side by side?    	
+Q81: How would you extract webpack config from angular cli project?    	
+Q82: Why angular uses url segment?    	
+Q83: When to use query parameters versus matrix parameters?    	
+Q84: Why Incremental DOM is Tree Shakable?    	
+Q85: What are observable creation functions?    	
+	
+React Questions	
+Difference between real DOM and virtual DOM?	
+Can we have 2 way data binding in react?	
+Is it possible to use React without rendering HTML?	
+How to define constants in react?	
+Different phases of component life cycle?Latest	
+What is the difference between element and component?	
+Functional vs class components?When to use a Class Component over a Function Component?	
+What are Pure Components?ex.	
+What are hight order components?Ex.	
+Purpose of callback function as an argument to setState()?	
+WHat is context in React?	
+What is this.props.children?	
+What is the purpose of using super constructor with props argument?	
+What is reconciliation and diffing algorithm?	
+What are React.Fragments? Why it is better than containers and divs?	
+Where to Fetch Data: componentWillMount vs componentDidMount?	
+What are the way to style components in react?	
+What are styled components?	
+How do you access props in attribute quotes?	
+What are "key" props and what is the benefit of using them in arrays of elements?	
+What do you understand by React.createRef()?	
+State Lifting?	
+What is the difference between super() and super(props) in React using ES6 classes?	
+What are controlled components vs uncontrolled components?	
+Difference between React and ReactDOM?	
+What is React router?	
+what is history.push()?	
+Redux vs Flux?	
+What are the three core principles of redux?	
+What are actions in redux?	
+what is redux saga?	
+What is the difference between mapstatetoprops() and mapdispatchtoprops()?	
+Can we maintain a separate state if we are using redux store?	
+Why are Redux state functions called reducers?	
+How to access redux store outside a react component?	
+	
+	
+Springboot	
+What is Spring Boot?	
+What are the advantages of Spring Boot?	
+What are the features of Spring Boot?	
+How to create Spring Boot application using Maven?	
+How to create Spring Boot project using Spring Initializer?	
+How to create Spring Boot project using boot CLI?	
+How to create simple Spring Boot application?	
+What are the Spring Boot Annotations?	
+What is Spring Boot dependency management?	
+What are the Spring Boot properties?	
+What are the Spring Boot Starters?	
+What is Spring Boot Actuator?	
+What is thymeleaf?	
+How to use thymeleaf?	
+How to connect Spring Boot to the database using JPA?	
+How to connect Spring Boot application to database using JDBC?	
+What is @RestController annotation in Spring Boot?	
+What is @RequestMapping annotation in Spring Boot?	
+How to create Spring Boot application using Spring Starter Project Wizard?	
+Spring Vs Spring Boot?	
+
+What JS transpilers / bundling systems are you familiar with? Can you explain how they work?		
+
+
+
+Databases	
+Easy questions	Items to be evaluated (to be filled in Interview Summary document)
+What is a primary key	Indexes
+What is the difference between primary key and a Index	Basic queries
+Can a primary key contain more than one column?	Transactions
+How do you make a simple select on all columns of a table?	Views
+You have 2 tables that are connected by a unique ID. How do you write a query to take all information on both tables based on a given ID	Primary, Foreign Keys
+What UNIQUE is used for?	noSQL
+Why you will use indexes?	
+Medium questions	
+What is the difference between MyIsam and InnoDb	
+If you have a select with 2 columns in where let say id and parent_id, what index should we put to optimize the query 	
+What is Inner Join, Left Join, Right Join? How are they different?	
+What is the difference between GROUP BY and ORDER BY?	
+You have a table with a number of rows, and you want to delete half of them, you don't care witch are deleted how can you do that?	
+What is a temporary Table?	
+How do you create a procedure?	
+What are the disadvantages of the Indexes?	
+Complex questions	
+Did you use transactions? how do you use them?	
+What Statements That Cannot Be Rolled Back, do you know?	
+What do you mean by NoSQL databases? 	
+What is the difference between NoSQL and RDBMS? 	
+Do you know what is the key difference between Replication and Sharding?	
+How can you see what index is used in a Query	
+	
+	
+GIT	
+Easy questions	Items to be evaluated (to be filled in Interview Summary document)
+What is a branch?	Basic usage/flow
+How can you create a branch?	Commit/Change/History management
+What is the difference between git pull and git fetch?	Branching strategy
+How can current branch be changed?	Repository management
+How can content in a namespace/folder start being versioned using git?	
+Given your new project is git versioned, how do you get project code to your station?	
+How can you list latest commits on current branch?	
+	
+	
+Medium questions	
+How do you revert a commit that has already been pushed to remote repository?	
+How do you squash last N commits into a single commit?	
+Is git a centralized or distributed VCS? What does that mean?	
+What is reflog, why and how would you use it?	
+What does stash as a command do? When do you use it?	
+What are tags, when do you use them, and how do you publish them?	
+How do you push a branch a second time, after performing a rebase? Is it possible to not be able?	
+	
+	
+Complex questions	
+Explain the branching flow that you use in a complex project with many team members?	
+How can the revert on a merge commit be made?	
+What does git bisect do?	
+How can you check what parents a merge commit has?	
+What are git hooks, how can they be used, and for what?	
+	
+	
+NodeJS	
+Easy questions	Items to be evaluated (to be filled in Interview Summary document)
+What is typically the first argument passed to a Node.js callback handler?	Backend frameworks
+What is REPL? What purpose it is used for?	Backend Unit testing
+What tools can be used to assure consistent style?	Backend templating
+What are the key features of Node.js?	Backend DOM manipulation
+What is NPM in Node.js?	
+What is a module?	
+What is the difference between blocking and non-blocking tasks?	
+Mention a few core modules that can cause blocking event loop.	
+Is Node JS is single or multi threaded?	
+How to define global variables in Node.js?	
+Medium questions	
+What node features can you take advantage of to improve the performance of your code for blocking tasks?	
+How can you run OS specific commands in node?	
+How does Node.js handle child threads?	
+What is “callback hell” and how can it be avoided?	
+What is EventEmitter in Node.js?	
+How to share a variable bewteen Node.js modules?	
+What is the difference between Operational errors and Developer errors?	
+What is the use of method – “spawn()”?	
+How can you check if a module was loaded or not?	
+What frameworks have you worked with? Explain how middleware works in the Express framework.	
+Complex questions	
+What's a stub? Name a use case.	
+How many types of streams are present in Node.js?	
+Does Node.js support multi-core platforms? And is it capable of utilizing all the Cores?	
+Explain Piping Stream?	
+What are the different types of Streams?	
+What are buffers?	
+Name a few events of the Readable or Writable streams.	
+Explain the Event Loop in Node.js.	
+How does 'require' work behind the scenes?	
+Difference between setImmediate() and process.nextTick()	
+How does clustering and interprocess communication work?	
